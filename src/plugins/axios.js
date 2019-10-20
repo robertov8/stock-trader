@@ -3,8 +3,6 @@ import axios from 'axios';
 
 import { baseURL } from '../../env.js';
 
-console.log(baseURL);
-
 Vue.use({
     install(Vue) {
         Vue.prototype.$http = axios.create({
